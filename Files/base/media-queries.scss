@@ -1,0 +1,126 @@
+$important: !important;
+
+@media screen and (max-width: 375px) {
+	.intro {
+		height: 550px $important;
+		
+		&::before {
+			background-position: 30% 50%;
+			background-size: 300%;
+		}
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	.navbar {
+		padding: 50px $important;
+	}
+
+	.hero-section {
+
+		h1 {
+			font-size: 2em $important;
+		}
+	}
+
+	.features {
+		.header {
+			font-size: 1.5em;
+		}
+
+		aside {
+			height: max-content $important;
+			padding-top: 1em $important;
+
+			h2 {
+				font-size: 1.4em;
+				margin-bottom: 10px $important;
+			}
+		}
+
+		.content {
+			flex-direction: column-reverse;
+			padding: 0;
+			padding-top: 1em;
+
+			section {
+				overflow: hidden $important;
+				text-align: center;
+				width: 90%;
+			}
+
+			section:nth-child(2) {
+				margin-top: 2em;
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.section-container {
+		padding: 0;
+		padding-top: 200px;
+		margin-top: 40px;
+
+		img {
+			position: absolute;
+			width: 100%;
+			bottom: unset;
+			top: 20px;
+		}
+
+		.infrastructure {
+			margin: 0;
+			padding: 30px;
+			padding-top: 170px;
+
+			&::before {
+				top: -600px;
+			}
+
+			.text {
+				text-align: center;
+			}
+		}
+	}
+	
+	.features-other {
+		flex-direction: column;
+		margin-bottom: 3em;
+		
+		img {
+			margin: 0;
+		}
+		
+		aside {
+			width: 90%;
+			height: auto;
+			text-align: center;
+			gap: 40px;
+		}
+	}
+	
+	footer {
+		
+		.logo {
+			margin-bottom: 3em;
+		}
+		
+		.content {
+			align-items: center;
+			flex-direction: column;
+			text-align: center;
+			font-size: 1.1em;
+			
+			section {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 2em;
+			}
+		}
+	}
+}

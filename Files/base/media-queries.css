@@ -1,0 +1,115 @@
+@media screen and (max-width: 375px) {
+  /* line 4, media-queries.scss */
+  .intro {
+    height: 550px !important; }
+    /* line 7, media-queries.scss */
+    .intro::before {
+      background-position: 30% 50%;
+      background-size: 300%; }
+
+  /* line 13, media-queries.scss */
+  aside {
+    width: 100%; }
+
+  /* line 17, media-queries.scss */
+  .navbar {
+    padding: 50px !important; }
+
+  /* line 23, media-queries.scss */
+  .hero-section h1 {
+    font-size: 2em !important; }
+
+  /* line 29, media-queries.scss */
+  .features .header {
+    font-size: 1.5em; }
+  /* line 33, media-queries.scss */
+  .features aside {
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+    padding-top: 1em !important; }
+    /* line 37, media-queries.scss */
+    .features aside h2 {
+      font-size: 1.4em;
+      margin-bottom: 10px !important; }
+  /* line 43, media-queries.scss */
+  .features .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 0;
+    padding-top: 1em; }
+    /* line 48, media-queries.scss */
+    .features .content section {
+      overflow: hidden !important;
+      text-align: center;
+      width: 90%; }
+    /* line 54, media-queries.scss */
+    .features .content section:nth-child(2) {
+      margin-top: 2em; }
+  /* line 59, media-queries.scss */
+  .features img {
+    width: 100%; }
+
+  /* line 64, media-queries.scss */
+  .section-container {
+    padding: 0;
+    padding-top: 200px;
+    margin-top: 40px; }
+    /* line 69, media-queries.scss */
+    .section-container img {
+      position: absolute;
+      width: 100%;
+      bottom: unset;
+      top: 20px; }
+    /* line 76, media-queries.scss */
+    .section-container .infrastructure {
+      margin: 0;
+      padding: 30px;
+      padding-top: 170px; }
+      /* line 81, media-queries.scss */
+      .section-container .infrastructure::before {
+        top: -600px; }
+      /* line 85, media-queries.scss */
+      .section-container .infrastructure .text {
+        text-align: center; }
+
+  /* line 91, media-queries.scss */
+  .features-other {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 3em; }
+    /* line 95, media-queries.scss */
+    .features-other img {
+      margin: 0; }
+    /* line 99, media-queries.scss */
+    .features-other aside {
+      width: 90%;
+      height: auto;
+      text-align: center;
+      gap: 40px; }
+
+  /* line 109, media-queries.scss */
+  footer .logo {
+    margin-bottom: 3em; }
+  /* line 113, media-queries.scss */
+  footer .content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-size: 1.1em; }
+    /* line 119, media-queries.scss */
+    footer .content section {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2em; } }
+
+/*# sourceMappingURL=media-queries.css.map */

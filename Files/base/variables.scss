@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+$header-font-family: 'Overpass', sans-serif;
+$text-font-family: 'Ubuntu', sans-serif;
+$color: hsl(208, 49%, 24%);
+$intro-gradient: linear-gradient(45deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+$section-gradient: linear-gradient(45deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+$border-radius: 100px;
+
+// Mixins
+
+@mixin flex ($justify, $align, $direction, $gap) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+	gap: $gap;
+}
