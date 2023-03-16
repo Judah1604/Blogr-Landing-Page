@@ -38,13 +38,13 @@ document.addEventListener('DOMContentLoaded', makeContentResponsive)
 window.addEventListener('resize', makeContentResponsive)
 
 function makeContentResponsive () {
-	if (window.innerWidth <= 375) {
+	if (window.innerWidth <= 425) {
 		toggle.style.display = 'flex'
 		navCol2.style.display = 'none'
 		nav.style.display = 'none'
 		editorImg.setAttribute('src', 'images/illustration-editor-mobile.svg')
 		featuresImg.setAttribute('src', 'images/illustration-laptop-mobile.svg')
-	} else if (window.innerWidth > 375) {
+	} else if (window.innerWidth > 425) {
 		toggle.style.display = 'none'
 		navCol2.style.display = 'flex'
 		nav.style.display = 'flex'
