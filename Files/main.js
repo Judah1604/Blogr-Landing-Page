@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', makeContentResponsive)
 window.addEventListener('resize', makeContentResponsive)
 
 function makeContentResponsive () {
-	if (window.innerWidth <= 425) {
+	if (window.innerWidth <= 530) {
 		toggle.style.display = 'flex'
 		navCol2.style.display = 'none'
 		nav.style.display = 'none'
