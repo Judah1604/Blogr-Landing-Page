@@ -44,7 +44,7 @@ function makeContentResponsive () {
 		nav.style.display = 'none'
 		editorImg.setAttribute('src', 'images/illustration-editor-mobile.svg')
 		featuresImg.setAttribute('src', 'images/illustration-laptop-mobile.svg')
-	} else {
+	} else if (window.innerWidth > 375) {
 		toggle.style.display = 'none'
 		navCol2.style.display = 'flex'
 		nav.style.display = 'flex'
